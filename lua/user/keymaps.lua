@@ -37,3 +37,7 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 
 -- Telescope
 keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
+-- These commands will navigate through buffers in order regardless of which mode you are using
+-- e.g. if you change the order of buffers :bnext and :bprevious will not respect the custom ordering
+keymap("n", "[b", ":BufferLineCycleNext<CR>", opts)
+keymap("n", "]b", ":BufferLineCyclePrev<CR>", opts)

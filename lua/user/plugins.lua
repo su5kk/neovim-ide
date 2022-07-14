@@ -64,7 +64,10 @@ return packer.startup(function(use)
 	use "nvim-treesitter/nvim-treesitter"
   -- Autopairs
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
+   -- Git
+  use "lewis6991/gitsigns.nvim"
   -- Automatically set up your configuration after cloning packer.nvim
+  use "kyazdani42/nvim-web-devicons"
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
     require("packer").sync()
