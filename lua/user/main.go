@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+type A struct {
+	ID string `json:"id"`
+}
+
 func main() {
-  fmt.Println("hello world")
+  a := &A{}
+  fmt.Println(a)
 }

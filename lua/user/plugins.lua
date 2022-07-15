@@ -66,8 +66,30 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
    -- Git
   use "lewis6991/gitsigns.nvim"
-  -- Automatically set up your configuration after cloning packer.nvim
+  -- Icons pack
   use "kyazdani42/nvim-web-devicons"
+  -- Tree viewer
+  use {
+    'kyazdani42/nvim-tree.lua',
+    requires = {
+      'kyazdani42/nvim-web-devicons', -- optional, for file icons
+    },
+    tag = 'nightly' -- optional, updated every week. (see issue #1193)
+  }
+  -- Tabs
+  use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
+  -- project management
+  use "ahmedkhalf/project.nvim"
+  -- speed up loading lua
+  use 'lewis6991/impatient.nvim'
+  -- gitline
+  use 'nvim-lualine/lualine.nvim'
+  use 'fatih/vim-go'
+  -- debug
+  use 'mfussenegger/nvim-dap'
+  use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+  use 'leoluz/nvim-dap-go'
+  -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
     require("packer").sync()

@@ -37,7 +37,16 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 
 -- Telescope
 keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
--- These commands will navigate through buffers in order regardless of which mode you are using
--- e.g. if you change the order of buffers :bnext and :bprevious will not respect the custom ordering
-keymap("n", "[b", ":BufferLineCycleNext<CR>", opts)
-keymap("n", "]b", ":BufferLineCyclePrev<CR>", opts)
+keymap("n", "<leader>fp", ":Telescope projects<CR>", opts)
+-- Nvimtree
+keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
+-- Gitsigns
+keymap("n", "<leader>gd", ":Gitsigns diffthis<CR>", opts)
+-- Go
+keymap("n", "<leader>b", ":lua require('dap').toggle_breakpoint()<CR>", opts)
+keymap("n", "<leader>B", ":lua require('dap').set_breakpoint(vim.fn.input('Breakpoint condition: '))<CR>", opts)
+keymap("n", "<leader>c", ":lua require('dap').continue()<CR>", opts)
+keymap("n", "<leader>fe", ":lua require('dapui').float_element()<CR>", opts)
+keymap("n", "<leader>so", ":lua require('dap').step_over()<CR>", opts)
+keymap("n", "<leader>si", ":lua require('dap').step_into()<CR>", opts)
+keymap("n", "<leader>ss", ":lua require('dap').step_out()<CR>", opts)

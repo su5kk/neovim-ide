@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -114,6 +119,16 @@ _G.packer_plugins = {
     path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
+  ["impatient.nvim"] = {
+    loaded = true,
+    path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/impatient.nvim",
+    url = "https://github.com/lewis6991/impatient.nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
@@ -124,6 +139,21 @@ _G.packer_plugins = {
     path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-dap-go"] = {
+    loaded = true,
+    path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/nvim-dap-go",
+    url = "https://github.com/leoluz/nvim-dap-go"
+  },
+  ["nvim-dap-ui"] = {
+    loaded = true,
+    path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
+  },
   ["nvim-lsp-installer"] = {
     loaded = true,
     path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
@@ -133,6 +163,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -154,6 +189,11 @@ _G.packer_plugins = {
     path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["project.nvim"] = {
+    loaded = true,
+    path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/project.nvim",
+    url = "https://github.com/ahmedkhalf/project.nvim"
+  },
   ["telescope-media-files.nvim"] = {
     loaded = true,
     path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/telescope-media-files.nvim",
@@ -163,6 +203,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-go"] = {
+    loaded = true,
+    path = "/home/kingalistair/.local/share/nvim/site/pack/packer/start/vim-go",
+    url = "https://github.com/fatih/vim-go"
   }
 }
 
